@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/FreelancerProject/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2005" />
+        <entry key="..\:/FreelancerProject/app/src/main/res/drawable/edit_text_border.xml" value="0.247" />
+        <entry key="..\:/FreelancerProject/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2005" />
+        <entry key="..\:/FreelancerProject/app/src/main/res/drawable/ic_menu_camera.xml" value="0.256" />
+        <entry key="..\:/FreelancerProject/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.256" />
+        <entry key="..\:/FreelancerProject/app/src/main/res/drawable/shape.xml" value="0.247" />
+        <entry key="..\:/FreelancerProject/app/src/main/res/drawable/side_nav_bar.xml" value="0.256" />
+        <entry key="..\:/FreelancerProject/app/src/main/res/drawable/spinner_background.xml" value="0.239" />
+        <entry key="..\:/FreelancerProject/app/src/main/res/layout/activity_add_edit_task.xml" value="0.264" />
+        <entry key="..\:/FreelancerProject/app/src/main/res/layout/activity_freelancer_page.xml" value="0.264" />
+        <entry key="..\:/FreelancerProject/app/src/main/res/layout/activity_freelancer_page2.xml" value="0.25416666666666665" />
+        <entry key="..\:/FreelancerProject/app/src/main/res/layout/activity_login_page.xml" value="0.25416666666666665" />
+        <entry key="..\:/FreelancerProject/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/FreelancerProject/app/src/main/res/layout/activity_my_account_page.xml" value="0.25416666666666665" />
+        <entry key="..\:/FreelancerProject/app/src/main/res/layout/activity_register_page.xml" value="0.264" />
+        <entry key="..\:/FreelancerProject/app/src/main/res/layout/activity_update_freelancer_information.xml" value="0.25416666666666665" />
+        <entry key="..\:/FreelancerProject/app/src/main/res/layout/fragment_done.xml" value="0.1" />
+        <entry key="..\:/FreelancerProject/app/src/main/res/layout/fragment_gallery.xml" value="0.25416666666666665" />
+        <entry key="..\:/FreelancerProject/app/src/main/res/layout/fragment_in_progress.xml" value="0.1" />
+        <entry key="..\:/FreelancerProject/app/src/main/res/layout/fragment_to_do_list.xml" value="0.2" />
+        <entry key="..\:/FreelancerProject/app/src/main/res/layout/freelancer_page_navigation.xml" value="0.2" />
+        <entry key="..\:/FreelancerProject/app/src/main/res/layout/one_line_task.xml" value="0.4" />
+        <entry key="..\:/FreelancerProject/app/src/main/res/menu/activity_main_drawer.xml" value="0.1" />
+        <entry key="..\:/FreelancerProject/app/src/main/res/menu/bottom_nav.xml" value="0.13472222222222222" />
+        <entry key="..\:/FreelancerProject/app/src/main/res/menu/bottom_nav_menu.xml" value="0.264" />
+        <entry key="..\:/FreelancerProject/app/src/main/res/menu/freelancer_page.xml" value="0.2" />
+        <entry key="..\:/FreelancerProject/app/src/main/res/menu/navigation_menu.xml" value="0.18055555555555555" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

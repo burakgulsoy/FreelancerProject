@@ -1,0 +1,20 @@
+1) Her işlem yapacağı zaman bütün task değerlerini çekmesi işleyiş açısından verimli değil, daha etkili bir
+yol kullanmak gerekir (taskfile yapısı tekrar düşünülebilir)
+
+2) Task durdurma başlatma işlemleri yok
+
+3) Task date girerken leap year ile ilgili ek bir kontrol yapılmıyor, örneğin 2025 için 29 nisan girilebilir. Bitiş tarihinin
+başlangıç tarihinden önce olmasıyla alakalı bir kısıtlama yok (olması gerekir ama string değerlerle zor, date tool lazım)
+
+4) TO_DO - IN PROGRESS - DONE sayfalarında constraint layout en alta kadar indiği için en altta kalan task'in bir kısmı bottom
+navigation bar tarafından engelleniyor (altta kalıyor göremiyoruz). navigation bar'ın üstünde kalacak şekilde xml'den design
+değiştirince bu sefer en üsttekinin bir kısmı görünmüyor. (şimdilik çözümüm yok)
+
+5) Bir sayfada task düzenlemesi yaptıktan sonra tekrar ilgili sayfaya dönülmesi belki yapılabilir (TO_DO sayfasını açıyor şimdilik)
+
+6) Update sayfasında işlem yaptıktan sonra buton isminin tekrar "Add" olarak değiştiğini görüyoruz ve bu iyi olmayabilir. Çözüm olarak
+buton ismini sürekli değiştirmek yerine hibernate tarafında saveOrUpdate kullanmayı deneyebilirim (şimdilik yapıyı bozmak istemiyorum)
+
+7) (date için check regex yapıldığı zaman) AddEditTask içerisinde add-update-delete işlemleri yaptıktan sonra açılan ToDoListFragment sayfasında recycler view güncellenmemiş
+oluyor. bottom navigation bar ile sayfa değiştirip geldiğimizde sıkıntı olmuyor. in progress ve done için zaten sayfa değiştirdiğimiz için göze batan bir durum
+olmuyor ----> tarihler için widget kullanmak ve takvimden tarih seçmek yüksek ihtimalle bu problemi çözecektir
